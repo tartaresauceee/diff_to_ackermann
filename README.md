@@ -17,7 +17,7 @@ in the differential drive convention, applies the conversion, and publishes the 
 2. Launch the converter node
 ``ros2 run diff_to_acker converter_node``
 
-3. Launch rqt with topic remapping
+3. Launch rqt command gui with topic remapping
 ``ros2 run rqt_robot_steering rqt_robot_steering --ros-args -r /cmd_vel:=cmd_vel_diff``
 
 ## 1. Differential Drive
